@@ -41,6 +41,8 @@ The LCD is connected via I2C to its corresponding Arduino Uno pins (using the `A
    - Loops continuously.  
 
 ## Simulation Circuit
+![Description](Circuit Image Tinkercad.jpg)
+
 **Simulation link:** [Tinkercad Project](https://www.tinkercad.com/things/1AGQpEJ5IEI-bodacious-rottis)  
 
 ## Serial Monitor Output Example
