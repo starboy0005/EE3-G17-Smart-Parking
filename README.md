@@ -41,20 +41,21 @@ The LCD is connected via I2C to its corresponding Arduino Uno pins (using the `A
    - Loops continuously.  
 
 ## Simulation Circuit
-![Description](Circuit Image Tinkercad.jpg)
+![Simulation Circuit](Circuit_image_Tinkercad.jpg)
 
 **Simulation link:** [Tinkercad Project](https://www.tinkercad.com/things/1AGQpEJ5IEI-bodacious-rottis)  
 
 ## Serial Monitor Output Example
-| Event        | Details                          |
-|-------------|----------------------------------|
-| **Car Entered**  | Slot: P2                     |
-| **Charging P2**  | Ticket: NP4567 | Fee: $0.10 |
-| **Charging P2**  | Ticket: NP4567 | Fee: $0.20 |
-| **Car Exited**   | Ticket: NP4567 | Total Fee: $0.40 |
+```
+Car Entered | Slot: P2  
+Charging P2 | Ticket: NP4567 | Fee: $0.10  
+Charging P2 | Ticket: NP4567 | Fee: $0.20  
+Car Exited  | Ticket: NP4567 | Total Fee: $0.40  
+```
 
 ## LCD Output Examples
 *(Add images here once available.)*  
 
 ## Dependencies
 Ensure you have the `Adafruit_LiquidCrystal` library installed for LCD I2C communication.
+
